@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
     position: fixed;
     bottom: 40px;
     right: 30px;
-    width: 20rem;
+    width: 38rem;
     height: 30rem;
     pointer-events: none;
     opacity: 0;
@@ -138,15 +138,13 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
 }
 
+
 @media (max-width: 760px) {
 
     .nav-links a {
         font-size: 12px;
     }
 
-    .about-content h1, p {
-        text-align: center;
-    }
 
     .proj-container {
         padding: 5px;
@@ -170,14 +168,12 @@ body::-webkit-scrollbar {
 
     .proj-container .proj-content .projects .img{
         position: relative;
-        width: 93vw;
-        left: 10px;
+        width: 90vw;
+        left: 2px;
+        margin: 0 auto;
         height: 18rem;
         opacity: 1;
     }
-    
-    
-
-    
+      
 
 }
