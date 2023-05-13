@@ -1,0 +1,183 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Inter:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.nav{
+    position: fixed;
+    z-index: 5;
+    right: 3%;
+    top: 5%;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Nueu Montreal', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F34213;
+}
+
+.proj-container {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    min-height: 100%;
+    background: #E7EFC5;
+    padding: 2em;
+    z-index: 1;
+}
+
+.proj-content {
+    margin: 10px 0;
+}
+
+.proj-container .proj-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 100%;
+    color: #F34213;
+    font-style: italic;
+}
+
+
+.proj-container .proj-content .projects {
+    margin: 2rem 1rem;
+}
+.proj-container .proj-content .projects a {
+    text-decoration: none;
+    font-family: 'Nueu Montreal', sans-serif;
+    font-weight: 900;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    color: #141414;
+    line-height: 100%;
+    position: relative;
+}
+
+.proj-container .proj-content .projects a:hover{
+    color: #F34213;
+}
+
+.proj-container .proj-content .projects a i {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 400;
+    right: -20px;
+    top: 30px;
+    color: #F34213;
+}
+
+.proj-container .proj-content .projects .img{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 600px;
+    height: 400px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.proj-container .proj-content .projects .img:hover{
+    z-index: -2;
+}
+
+.proj-container .proj-content .projects img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 2em;
+    background: #141414;
+}
+
+.about-content{
+    position: relative;
+    top: 20%;
+}
+
+
+
+.about-content h1, p {
+    font-family: 'Nueu Montreal', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    /* text-transform: uppercase; */
+    color: #E7EFC5;
+}
+
+.about-content p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .about-content h1, p {
+        text-align: center;
+    }
+
+    .proj-container {
+        padding: 5px;
+    }
+    .proj-container .proj-content h1{
+        font-size: 1rem;
+        margin: 3rem 1rem;
+    }
+
+    .proj-container .proj-content .projects {
+        margin: 0;
+    }
+
+    
+    .proj-container .proj-content .projects a i {
+        display: none;
+    }
+    .proj-container .proj-content .projects a{
+        display: none;
+    }
+
+    .proj-container .proj-content .projects .img{
+        position: relative;
+        display: flex;
+        width: 400px;
+        height: 300px;
+        opacity: 1;
+    }
+    
+    
+
+    
+
+}
