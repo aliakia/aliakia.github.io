@@ -88,8 +88,8 @@ body::-webkit-scrollbar {
     position: fixed;
     bottom: 40px;
     right: 30px;
-    width: 600px;
-    height: 400px;
+    width: 20rem;
+    height: 30rem;
     pointer-events: none;
     opacity: 0;
 }
@@ -170,9 +170,9 @@ body::-webkit-scrollbar {
 
     .proj-container .proj-content .projects .img{
         position: relative;
-        display: flex;
-        width: 400px;
-        height: 300px;
+        width: 93vw;
+        left: 10px;
+        height: 18rem;
         opacity: 1;
     }
     
