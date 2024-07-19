@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background: #FCFAEE;
 }
 
 li{
@@ -10,11 +15,13 @@ li{
 }
 
 a{
-    color: #6D7F9C;
+    color: #F25757;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 h4 {
-    color: #D84654;
+    color: #2D7DD2;
     font-size: 18px;
 }
 
@@ -24,6 +31,7 @@ ul {
 
 p {
     text-align: justify;
+    font-size: 15px;
 }
 
 .container {
@@ -35,14 +43,15 @@ p {
 .links, .contacts, .projects {
     display: flex;
     justify-content: space-between;
-    text-align: start;
     width: 100%;
     margin: 10px 0;
+    margin-bottom: 30px;
 }
 
 .projects li {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
 
 .links {
     margin-top: 70px;
@@ -51,7 +60,6 @@ p {
 .greet {
     font-size: 22px;
 }
-
 
 
 
