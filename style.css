@@ -45,8 +45,13 @@ p {
 }
 
 .links {
-    margin-top: 30px;
+    margin-top: 70px;
 }
+
+.greet {
+    font-size: 22px;
+}
+
 
 
 
