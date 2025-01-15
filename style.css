@@ -98,8 +98,8 @@ body::-webkit-scrollbar {
     position: fixed;
     bottom: 40px;
     right: 30px;
-    width: 60rem;
-    height: 38rem;
+    width: 40rem;
+    height: 24rem;
     pointer-events: none;
     opacity: 0;
 }
